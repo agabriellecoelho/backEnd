@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@GetMapping("/exercicio")
 public class MovieRecomendationController {
     @GetMapping("/recomendar")
     public String recomendarFilme(
